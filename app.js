@@ -138,7 +138,7 @@ const contos = [
       "Eu não sentia mais meus movimentos, apenas as lágrimas guardadas que finalmente escorriam.",
       "Ali, caído sobre o chão frio e áspero, restava-me apenas escutar o som da chuva que castigava o mundo lá fora. Naquele momento, não havia mais rabiscos. Não havia mais pensamentos dispersos. Meus olhos viam borrões, assim como os que antes manchavam as páginas. Mas esses também se apagavam, esvaindo-se com o tempo. E, aos poucos, tudo cedia espaço à mesma figura imutável e escura que habitava o quarto desde o início."
     ],
-    italicoTotal: true
+    italicos: [2, 4, 11]
   }
 ];
 
@@ -583,6 +583,9 @@ function criarCardPoema(poema) {
   `;
 }
 
+/* Monta os parágrafos de um conto, aplicando itálico somente
+   onde foi indicado (lista "italicos" por índice, ou "italicoTotal"
+   quando o conto inteiro deve ficar em itálico). */
 function criarParagrafosConto(conto) {
   return conto.paragrafos
     .map((texto, indice) => {
