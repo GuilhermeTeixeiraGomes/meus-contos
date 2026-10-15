@@ -46,7 +46,7 @@ const contos = [
     data: "8 de abril de 2026",
     tempo: "1 min",
     descricao:
-      "Um autor descobre que a personagem de seu próximo conto já anda pela sua casa.",
+      "Uma noite em claro, um verbo que não vem e uma presença que sabe exatamente onde ferir quem tenta dizer algo.",
     arquivo: "contos/o-que-nao-fora-escrito.html"
   }
 ];
